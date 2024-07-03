@@ -1,5 +1,9 @@
 ## Databricks R Package Management
-This repository contains init scripts and notebooks for managing R packages in Databricks. The provided code can be executed directly in Databricks by copying it out of the cells.
+This repository contains init scripts and notebooks for managing R packages in Databricks. The provided code can be executed directly in Databricks.
+
+#### Requirements
+- Unity catalog (Databricks Premium or above)
+- managed volume
 
 #### Contents
 init_script1.sh: Installs packages cluster-scoped from tar.gz files on a managed volume.
